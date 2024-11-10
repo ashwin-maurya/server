@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DB = mongoose.connect("mongodb://127.0.0.1/movies");
+const DB = mongoose.connect("mongodb+srv://emailsshubham:Sulli%401406@cluster0.sv9mo.mongodb.net/");
 DB.then((result) => {
   console.log("DataBase Connected");
 });
